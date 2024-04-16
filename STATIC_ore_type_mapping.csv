@@ -1,0 +1,180 @@
+type_id,type_name,group_id,group_name,ore_type
+18,Plagioclase,458,Plagioclase,Asteroid Ore
+19,Spodumain,461,Spodumain,Asteroid Ore
+20,Kernite,457,Kernite,Asteroid Ore
+21,Hedbergite,454,Hedbergite,Asteroid Ore
+22,Arkonor,450,Arkonor,Asteroid Ore
+1223,Bistot,451,Bistot,Asteroid Ore
+1224,Pyroxeres,459,Pyroxeres,Asteroid Ore
+1225,Crokite,452,Crokite,Asteroid Ore
+1226,Jaspet,456,Jaspet,Asteroid Ore
+1227,Omber,469,Omber,Asteroid Ore
+1228,Scordite,460,Scordite,Asteroid Ore
+1229,Gneiss,467,Gneiss,Asteroid Ore
+1230,Veldspar,462,Veldspar,Asteroid Ore
+1231,Hemorphite,455,Hemorphite,Asteroid Ore
+1232,Dark Ochre,453,Dark Ochre,Asteroid Ore
+11396,Mercoxit,468,Mercoxit,Asteroid Ore
+16262,Clear Icicle,465,Ice,Ice
+16263,Glacial Mass,465,Ice,Ice
+16264,Blue Ice,465,Ice,Ice
+16265,White Glaze,465,Ice,Ice
+16266,Glare Crust,465,Ice,Ice
+16267,Dark Glitter,465,Ice,Ice
+16268,Gelidus,465,Ice,Ice
+16269,Krystallos,465,Ice,Ice
+17425,Crimson Arkonor,450,Arkonor,Asteroid Ore
+17426,Prime Arkonor,450,Arkonor,Asteroid Ore
+17428,Triclinic Bistot,451,Bistot,Asteroid Ore
+17429,Monoclinic Bistot,451,Bistot,Asteroid Ore
+17432,Sharp Crokite,452,Crokite,Asteroid Ore
+17433,Crystalline Crokite,452,Crokite,Asteroid Ore
+17436,Onyx Ochre,453,Dark Ochre,Asteroid Ore
+17437,Obsidian Ochre,453,Dark Ochre,Asteroid Ore
+17440,Vitric Hedbergite,454,Hedbergite,Asteroid Ore
+17441,Glazed Hedbergite,454,Hedbergite,Asteroid Ore
+17444,Vivid Hemorphite,455,Hemorphite,Asteroid Ore
+17445,Radiant Hemorphite,455,Hemorphite,Asteroid Ore
+17448,Pure Jaspet,456,Jaspet,Asteroid Ore
+17449,Pristine Jaspet,456,Jaspet,Asteroid Ore
+17452,Luminous Kernite,457,Kernite,Asteroid Ore
+17453,Fiery Kernite,457,Kernite,Asteroid Ore
+17455,Azure Plagioclase,458,Plagioclase,Asteroid Ore
+17456,Rich Plagioclase,458,Plagioclase,Asteroid Ore
+17459,Solid Pyroxeres,459,Pyroxeres,Asteroid Ore
+17460,Viscous Pyroxeres,459,Pyroxeres,Asteroid Ore
+17463,Condensed Scordite,460,Scordite,Asteroid Ore
+17464,Massive Scordite,460,Scordite,Asteroid Ore
+17466,Bright Spodumain,461,Spodumain,Asteroid Ore
+17467,Gleaming Spodumain,461,Spodumain,Asteroid Ore
+17470,Concentrated Veldspar,462,Veldspar,Asteroid Ore
+17471,Dense Veldspar,462,Veldspar,Asteroid Ore
+17865,Iridescent Gneiss,467,Gneiss,Asteroid Ore
+17866,Prismatic Gneiss,467,Gneiss,Asteroid Ore
+17867,Silvery Omber,469,Omber,Asteroid Ore
+17868,Golden Omber,469,Omber,Asteroid Ore
+17869,Magma Mercoxit,468,Mercoxit,Asteroid Ore
+17870,Vitreous Mercoxit,468,Mercoxit,Asteroid Ore
+17975,Thick Blue Ice,465,Ice,Ice
+17976,Pristine White Glaze,465,Ice,Ice
+17977,Smooth Glacial Mass,465,Ice,Ice
+17978,Enriched Clear Icicle,465,Ice,Ice
+25268,Amber Cytoserocin,711,Harvestable Cloud,Gas
+25273,Golden Cytoserocin,711,Harvestable Cloud,Gas
+25274,Viridian Cytoserocin,711,Harvestable Cloud,Gas
+25275,Celadon Cytoserocin,711,Harvestable Cloud,Gas
+25276,Malachite Cytoserocin,711,Harvestable Cloud,Gas
+25277,Lime Cytoserocin,711,Harvestable Cloud,Gas
+25278,Vermillion Cytoserocin,711,Harvestable Cloud,Gas
+25279,Azure Cytoserocin,711,Harvestable Cloud,Gas
+26713,Flawed Gneiss,467,Gneiss,Asteroid Ore
+26851,Fools Crokite,452,Crokite,Asteroid Ore
+26852,Flawed Arkonor,450,Arkonor,Asteroid Ore
+26868,Flawed Jaspet,456,Jaspet,Asteroid Ore
+27028,Chondrite,462,Veldspar,Asteroid Ore
+28626,Zuthrine,468,Mercoxit,Asteroid Ore
+28627,Azure Ice,465,Ice,Ice
+28628,Crystalline Icicle,465,Ice,Ice
+28694,Amber Mykoserocin,711,Harvestable Cloud,Gas
+28695,Azure Mykoserocin,711,Harvestable Cloud,Gas
+28696,Celadon Mykoserocin,711,Harvestable Cloud,Gas
+28697,Golden Mykoserocin,711,Harvestable Cloud,Gas
+28698,Lime Mykoserocin,711,Harvestable Cloud,Gas
+28699,Malachite Mykoserocin,711,Harvestable Cloud,Gas
+28700,Vermillion Mykoserocin,711,Harvestable Cloud,Gas
+28701,Viridian Mykoserocin,711,Harvestable Cloud,Gas
+30370,Fullerite-C50,711,Harvestable Cloud,Gas
+30371,Fullerite-C60,711,Harvestable Cloud,Gas
+30372,Fullerite-C70,711,Harvestable Cloud,Gas
+30373,Fullerite-C72,711,Harvestable Cloud,Gas
+30374,Fullerite-C84,711,Harvestable Cloud,Gas
+30375,Fullerite-C28,711,Harvestable Cloud,Gas
+30376,Fullerite-C32,711,Harvestable Cloud,Gas
+30377,Fullerite-C320,711,Harvestable Cloud,Gas
+30378,Fullerite-C540,711,Harvestable Cloud,Gas
+45490,Zeolites,1884,Ubiquitous Moon Asteroids,Moon Ore
+45491,Sylvite,1884,Ubiquitous Moon Asteroids,Moon Ore
+45492,Bitumens,1884,Ubiquitous Moon Asteroids,Moon Ore
+45493,Coesite,1884,Ubiquitous Moon Asteroids,Moon Ore
+45494,Cobaltite,1920,Common Moon Asteroids,Moon Ore
+45495,Euxenite,1920,Common Moon Asteroids,Moon Ore
+45496,Titanite,1920,Common Moon Asteroids,Moon Ore
+45497,Scheelite,1920,Common Moon Asteroids,Moon Ore
+45498,Otavite,1921,Uncommon Moon Asteroids,Moon Ore
+45499,Sperrylite,1921,Uncommon Moon Asteroids,Moon Ore
+45500,Vanadinite,1921,Uncommon Moon Asteroids,Moon Ore
+45501,Chromite,1921,Uncommon Moon Asteroids,Moon Ore
+45502,Carnotite,1922,Rare Moon Asteroids,Moon Ore
+45503,Zircon,1922,Rare Moon Asteroids,Moon Ore
+45504,Pollucite,1922,Rare Moon Asteroids,Moon Ore
+45506,Cinnabar,1922,Rare Moon Asteroids,Moon Ore
+45510,Xenotime,1923,Exceptional Moon Asteroids,Moon Ore
+45511,Monazite,1923,Exceptional Moon Asteroids,Moon Ore
+45512,Loparite,1923,Exceptional Moon Asteroids,Moon Ore
+45513,Ytterbite,1923,Exceptional Moon Asteroids,Moon Ore
+46280,Brimful Zeolites,1884,Ubiquitous Moon Asteroids,Moon Ore
+46281,Glistening Zeolites,1884,Ubiquitous Moon Asteroids,Moon Ore
+46282,Brimful Sylvite,1884,Ubiquitous Moon Asteroids,Moon Ore
+46283,Glistening Sylvite,1884,Ubiquitous Moon Asteroids,Moon Ore
+46284,Brimful Bitumens,1884,Ubiquitous Moon Asteroids,Moon Ore
+46285,Glistening Bitumens,1884,Ubiquitous Moon Asteroids,Moon Ore
+46286,Brimful Coesite,1884,Ubiquitous Moon Asteroids,Moon Ore
+46287,Glistening Coesite,1884,Ubiquitous Moon Asteroids,Moon Ore
+46288,Copious Cobaltite,1920,Common Moon Asteroids,Moon Ore
+46289,Twinkling Cobaltite,1920,Common Moon Asteroids,Moon Ore
+46290,Copious Euxenite,1920,Common Moon Asteroids,Moon Ore
+46291,Twinkling Euxenite,1920,Common Moon Asteroids,Moon Ore
+46292,Copious Titanite,1920,Common Moon Asteroids,Moon Ore
+46293,Twinkling Titanite,1920,Common Moon Asteroids,Moon Ore
+46294,Copious Scheelite,1920,Common Moon Asteroids,Moon Ore
+46295,Twinkling Scheelite,1920,Common Moon Asteroids,Moon Ore
+46296,Lavish Otavite,1921,Uncommon Moon Asteroids,Moon Ore
+46297,Shimmering Otavite,1921,Uncommon Moon Asteroids,Moon Ore
+46298,Lavish Sperrylite,1921,Uncommon Moon Asteroids,Moon Ore
+46299,Shimmering Sperrylite,1921,Uncommon Moon Asteroids,Moon Ore
+46300,Lavish Vanadinite,1921,Uncommon Moon Asteroids,Moon Ore
+46301,Shimmering Vanadinite,1921,Uncommon Moon Asteroids,Moon Ore
+46302,Lavish Chromite,1921,Uncommon Moon Asteroids,Moon Ore
+46303,Shimmering Chromite,1921,Uncommon Moon Asteroids,Moon Ore
+46304,Replete Carnotite,1922,Rare Moon Asteroids,Moon Ore
+46305,Glowing Carnotite,1922,Rare Moon Asteroids,Moon Ore
+46306,Replete Zircon,1922,Rare Moon Asteroids,Moon Ore
+46307,Glowing Zircon,1922,Rare Moon Asteroids,Moon Ore
+46308,Replete Pollucite,1922,Rare Moon Asteroids,Moon Ore
+46309,Glowing Pollucite,1922,Rare Moon Asteroids,Moon Ore
+46310,Replete Cinnabar,1922,Rare Moon Asteroids,Moon Ore
+46311,Glowing Cinnabar,1922,Rare Moon Asteroids,Moon Ore
+46312,Bountiful Xenotime,1923,Exceptional Moon Asteroids,Moon Ore
+46313,Shining Xenotime,1923,Exceptional Moon Asteroids,Moon Ore
+46314,Bountiful Monazite,1923,Exceptional Moon Asteroids,Moon Ore
+46315,Shining Monazite,1923,Exceptional Moon Asteroids,Moon Ore
+46316,Bountiful Loparite,1923,Exceptional Moon Asteroids,Moon Ore
+46317,Shining Loparite,1923,Exceptional Moon Asteroids,Moon Ore
+46318,Bountiful Ytterbite,1923,Exceptional Moon Asteroids,Moon Ore
+46319,Shining Ytterbite,1923,Exceptional Moon Asteroids,Moon Ore
+46675,Jet Ochre,453,Dark Ochre,Asteroid Ore
+46676,Cubic Bistot,451,Bistot,Asteroid Ore
+46677,Pellucid Crokite,452,Crokite,Asteroid Ore
+46678,Flawless Arkonor,450,Arkonor,Asteroid Ore
+46679,Brilliant Gneiss,467,Gneiss,Asteroid Ore
+46680,Lustrous Hedbergite,454,Hedbergite,Asteroid Ore
+46681,Scintillating Hemorphite,455,Hemorphite,Asteroid Ore
+46682,Immaculate Jaspet,456,Jaspet,Asteroid Ore
+46683,Resplendant Kernite,457,Kernite,Asteroid Ore
+46684,Platinoid Omber,469,Omber,Asteroid Ore
+46685,Sparkling Plagioclase,458,Plagioclase,Asteroid Ore
+46686,Opulent Pyroxeres,459,Pyroxeres,Asteroid Ore
+46687,Glossy Scordite,460,Scordite,Asteroid Ore
+46688,Dazzling Spodumain,461,Spodumain,Asteroid Ore
+46689,Stable Veldspar,462,Veldspar,Asteroid Ore
+49787,Hiemal Tricarboxyl Vapor,711,Harvestable Cloud,Gas
+52306,Talassonite,4029,Talassonite,Asteroid Ore
+52315,Rakovene,4030,Rakovene,Asteroid Ore
+52316,Bezdnacine,4031,Bezdnacine,Asteroid Ore
+56625,Abyssal Talassonite,4029,Talassonite,Asteroid Ore
+56626,Hadal Talassonite,4029,Talassonite,Asteroid Ore
+56627,Abyssal Bezdnacine,4031,Bezdnacine,Asteroid Ore
+56628,Hadal Bezdnacine,4031,Bezdnacine,Asteroid Ore
+56629,Abyssal Rakovene,4030,Rakovene,Asteroid Ore
+56630,Hadal Rakovene,4030,Rakovene,Asteroid Ore
+76373,Nesosilicate Rakovene,4030,Rakovene,Asteroid Ore
