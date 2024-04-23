@@ -1,4 +1,4 @@
-MonthYear,region_id,region_name,asteroid_volume_mined,gas_volume_mined,ice_volume_mined,moon_volume_mined,asteroid_volume_wasted,gas_volume_wasted,ice_volume_wasted,moon_volume_wasted
+history_date,region_id,region_name,asteroid_volume_mined,gas_volume_mined,ice_volume_mined,moon_volume_mined,asteroid_volume_wasted,gas_volume_wasted,ice_volume_wasted,moon_volume_wasted
 2022-05-01,10000039,Esoteria,290597784.0,0.0,249521000.0,674895790.0,79478085.4,0.0,69459000.0,95026870.0
 2022-05-01,10000041,Syndicate,19131772.3,2308170.0,93254000.0,362063430.0,3330924.65,501040.0,29581000.0,109468680.0
 2022-05-01,10000042,Metropolis,2448865689.7,5508780.0,2832809000.0,1270960010.0,664629971.6,458150.0,720559000.0,380534630.0
