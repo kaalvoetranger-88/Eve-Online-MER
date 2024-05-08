@@ -122,7 +122,7 @@ latest_year = None  # initialise empty counter for year
 for key, df in dataframes.items():
     # Check if 'history_date' column exists
     if 'history_date' in df.columns:
-        # Convert 'history_date' column to datetime format
+        # Convert 'history_date' column to datetime format and index
         df['history_date'] = pd.to_datetime(df['history_date'], errors='coerce')  
         print(f'history_date column in dataset {key} converted to pandas datetime')
         df.set_index('history_date', inplace=True)
@@ -382,8 +382,218 @@ def plot_mining_by_region(data, volume_mined, volume_wasted, palette='husl'):
 # Defining Plot Functions for Imports, Exports, & Net Exports by Region
 
 
+def plot_imports_exports(data, palette='husl', figsize=(24, 10)):
+    # Create a DataFrame from the data
+    data = data.copy()
+
+    # Find the most recent month in the dataset
+    latest_month = data.index.get_level_values('history_date').max().month
+    latest_year = data.index.get_level_values('history_date').max().year
+
+    # Filter data for the most recent month
+    latest_month_data = data[(data.index.get_level_values('history_date').month == latest_month) &
+                             (data.index.get_level_values('history_date').year == latest_year)]
+
+    df = latest_month_data.copy()
+    df['net_exports'] = df['exports'] - df['imports']
+
+    # Calculate absolute values for sorting
+    df['imports_p'] = -df['imports']
+
+    # Sort the DataFrame by net_exports
+    df_sorted = df.sort_values('net_exports', ascending=False)
+
+    # Set up subplots for side-by-side charts
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=figsize)
+
+    # Plot Tornado Chart on the first axis (ax1)
+    sns.barplot(x='exports', y='region_name', data=df_sorted, color='skyblue', label='Exports', ax=ax1)
+    sns.barplot(x='imports_p', y='region_name', data=df_sorted, color='salmon', label='Imports', ax=ax1)
+    ax1.set_xlabel('Trillions of ISK')
+    ax1.set_title('Imports & Exports by Region')
+    ax1.legend(loc='upper left')  # Change legend position to top left
+
+    # Add text labels showing abbreviated values
+    for bar in ax1.patches:
+        value = bar.get_width()
+        formatted_value = f'{value/1e12:.0f}T'
+        if value > 0:
+            ax1.text(value, bar.get_y() + bar.get_height()/2, formatted_value,
+                     va='center', ha='left', color='white', fontsize=10, fontweight='bold')
+        else:
+            ax1.text(value, bar.get_y() + bar.get_height()/2, formatted_value,
+                     va='center', ha='right', color='white', fontsize=10, fontweight='bold')
+
+    # Plot Net Exports on the second axis (ax2)
+    sns.barplot(x='net_exports', y='region_name', data=df_sorted, ax=ax2)
+
+    # Color positive and negative bars differently
+    for bar in ax2.patches:
+        if bar.get_width() > 0:
+            bar.set_color('skyblue')  # Positive values in blue
+        else:
+            bar.set_color('salmon')    # Negative values in red
+
+    ax2.axvline(x=0, color='black', linewidth=0.5)
+    ax2.set_xlabel('Trillions of ISK')
+    ax2.set_title('Net Exports by Region')
+
+    # Remove y-axis labels
+    ax2.set_ylabel(' ')
+    ax2.set_yticks([])
+
+    # Format x-axis labels to show numbers in trillions
+    def format_trillions(x, pos):
+        return f'{x/1e12:.0f}T'
+
+    ax1.xaxis.set_major_formatter(ticker.FuncFormatter(format_trillions))
+    ax2.xaxis.set_major_formatter(ticker.FuncFormatter(format_trillions))
+
+    # Add text labels next to each bar showing abbreviated values
+    for bar in ax2.patches:
+        value = bar.get_width()
+        formatted_value = format_trillions(value, None)
+        if value > 0:
+            ax2.text(value, bar.get_y() + bar.get_height()/2, formatted_value,
+                     va='center', ha='left', color='blue', fontsize=10, fontweight='bold')
+        else:
+            ax2.text(value, bar.get_y() + bar.get_height()/2, formatted_value,
+                     va='center', ha='right', color='red', fontsize=10, fontweight='bold')
+
+    # Add a title above both charts
+    fig.suptitle(f'{calendar.month_abbr[latest_month]} {latest_year}: EVE Online Economy', fontsize=16, fontweight='bold')
+
+    # Adjust layout and display
+    plt.tight_layout()
+    plt.show()
+
 
 # Defining Plot Functions for Money Supply and Isk Velocity
+
+
+def plot_money_supply(data, colors='husl', figsize=(15, 8), window=3):
+    """
+    Plot a line chart of money supply data with text labels for the most recent values.
+
+    Parameters:
+    - data (DataFrame): The DataFrame containing the data.
+    - colors (str or list): Color palette for lines. Default is 'husl'.
+    - figsize (tuple): Figure size. Default is (15, 8).
+    - window (int): Rolling window size for smoothing. Default is 3.
+    """
+    # Copy the input DataFrame to avoid modifying the original data
+    df = data.copy()
+
+    # Extract columns to plot (excluding specific columns)
+    columns_to_plot = [col for col in df.columns if col not in ['isk_velocity', 'isk_velocity_wo_accessories']]
+
+
+    # Calculate rolling mean (moving average) for each column
+    df_smoothed = df[columns_to_plot].rolling(window=window).mean()
+
+    # Check if the smoothed DataFrame is empty
+    if df_smoothed.empty:
+        print("Error: Smoothed DataFrame is empty. Cannot plot.")
+        return
+
+    # Set up the plot
+    plt.figure(figsize=figsize)
+
+    # Define a color palette based on the number of columns to plot
+    if isinstance(colors, str):
+        colors = sns.color_palette(colors, n_colors=len(df_smoothed.columns))
+    elif len(colors) < len(df_smoothed.columns):
+        print("Warning: Not enough colors provided. Using default color palette.")
+        colors = sns.color_palette('husl', n_colors=len(df_smoothed.columns))
+
+    # Plot smoothed lines for each column
+    for i, column in enumerate(df_smoothed.columns):
+        sns.lineplot(x=df_smoothed.index, y=df_smoothed[column], label=column, color=colors[i])
+
+        # Add text label for the most recent value (in trillions)
+        most_recent_value = df_smoothed[column].dropna().iloc[-1]  # Get most recent non-NaN value
+        if pd.notna(most_recent_value):
+            label_text = f'{column}: \n {most_recent_value/1e12:.2f}T'  # Format label text
+            plt.text(df_smoothed.index[-1], most_recent_value, label_text, fontsize=10, va='center', ha='left')
+
+    # Set title, labels, and legend
+    # Find the most recent month in the dataset
+    latest_month = data.index.get_level_values('history_date').max().month
+    latest_year = data.index.get_level_values('history_date').max().year
+    
+    plt.title(f'{calendar.month_abbr[latest_month]} {latest_year}: Money Supply', fontsize=16, fontweight='bold')
+    plt.xlabel('Date')
+    plt.ylabel('Value (Trillions)')
+    plt.legend(loc='upper center')
+
+    # Customize y-axis ticks to show values in trillions (abbreviated as 1T, 2T, etc.)
+    plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, pos: f'{x/1e12:.0f}T'))
+
+    # Display the plot
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_velocity_of_isk(data, colors='rainbow', figsize=(15, 8), window=3):
+    """
+    Plot a line chart of velocity of isk with text labels for the most recent values.
+
+    Parameters:
+    - data (DataFrame): The DataFrame containing the data.
+    - colors (str or list): Color palette for lines. Default is 'husl'.
+    - figsize (tuple): Figure size. Default is (15, 8).
+    - window (int): Rolling window size for smoothing. Default is 3.
+    """
+    # Copy the input DataFrame to avoid modifying the original data
+    df = data.copy()
+
+    # Extract columns to plot
+    columns_to_plot = [col for col in df.columns if col in ['isk_velocity', 'isk_velocity_wo_accessories']]
+
+
+    # Calculate rolling mean (moving average) for each column
+    df_smoothed = df[columns_to_plot].rolling(window=window).mean()
+
+    # Check if the smoothed DataFrame is empty
+    if df_smoothed.empty:
+        print("Error: Smoothed DataFrame is empty. Cannot plot.")
+        return
+
+    # Set up the plot
+    plt.figure(figsize=figsize)
+
+    # Define a color palette based on the number of columns to plot
+    if isinstance(colors, str):
+        colors = sns.color_palette(colors, n_colors=len(df_smoothed.columns))
+    elif len(colors) < len(df_smoothed.columns):
+        print("Warning: Not enough colors provided. Using default color palette.")
+        colors = sns.color_palette('husl', n_colors=len(df_smoothed.columns))
+
+    # Plot smoothed lines for each column
+    for i, column in enumerate(df_smoothed.columns):
+        sns.lineplot(x=df_smoothed.index, y=df_smoothed[column], label=column, color=colors[i])
+
+        # Add text label for the most recent value (in trillions)
+        most_recent_value = df_smoothed[column].dropna().iloc[-1].round(2)  # Get most recent non-NaN value
+        if pd.notna(most_recent_value):
+            label_text = f'{column}: \n {most_recent_value}'  # Format label text
+            plt.text(df_smoothed.index[-1], most_recent_value, label_text, fontsize=10, va='center', ha='left')
+
+    # Set title, labels, and legend
+    # Find the most recent month in the dataset
+    latest_month = data.index.get_level_values('history_date').max().month
+    latest_year = data.index.get_level_values('history_date').max().year
+    
+    plt.title(f'{calendar.month_abbr[latest_month]} {latest_year}: Velocity of ISK', fontsize=16, fontweight='bold')
+
+    plt.xlabel('Date')
+    plt.ylabel('Value')
+    plt.legend(loc='upper center')
+
+    # Display the plot
+    plt.tight_layout()
+    plt.show()
+
 
 
 
@@ -427,5 +637,18 @@ plot_mining_by_region(dataframes['mining_by_region'],
                       'moon_volume_wasted', 
                       'winter') 
 
+plot_imports_exports(dataframes['regional_stats'])
+
+plot_money_supply(dataframes['money_supply'], colors='bright', figsize=(15, 8), window=21)
+
+plot_velocity_of_isk(dataframes['money_supply'], colors='rainbow', figsize=(15, 8), window=21)
+
+
+# %% 
+
+
+
+
+# %%
 
 
