@@ -1698,6 +1698,7 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 54327,Men's Capsuleer Day XVII Cap,30,Apparel,1092,Headwear,Consumer Price Index,Apparel
 54328,Men's Capsuleer Day XVII T-Shirt,30,Apparel,1089,Tops,Consumer Price Index,Apparel
 54359,Women's Obsidian Opulence Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
+54360,Women's Azure Abundance Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54363,Women's Rubedo Richesse Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54364,Women's Albedo Affluence Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54365,Women's Obsidian Opulence Pants,30,Apparel,1090,Bottoms,Consumer Price Index,Apparel
@@ -1707,8 +1708,10 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 54375,Men's Rubedo Richesse Pants,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54376,Men's Albedo Affluence Pants,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54377,Men's Obsidian Opulence Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
+54378,Men's Azure Abundance Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54381,Men's Rubedo Richesse Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
 54382,Men's Albedo Affluence Jacket,30,Apparel,1088,Outer,Consumer Price Index,Apparel
+54383,Men's Boardroom Loafers,30,Apparel,1091,Footwear,Consumer Price Index,Apparel
 54714,Women's Biosecurity Response Team Mask,30,Apparel,4057,Masks,Consumer Price Index,Apparel
 54715,Women's SOE Enhanced Biosecurity Mask,30,Apparel,4057,Masks,Consumer Price Index,Apparel
 54719,Men's SOE Enhanced Biosecurity Mask,30,Apparel,4057,Masks,Consumer Price Index,Apparel
