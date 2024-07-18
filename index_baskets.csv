@@ -728,18 +728,18 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 27451,Guristas Nova Heavy Missile,8,Charge,385,Heavy Missile,Consumer Price Index,Ammo
 27453,Caldari Navy Nova Heavy Missile,8,Charge,385,Heavy Missile,Consumer Price Index,Ammo
 27455,Dread Guristas Nova Heavy Missile,8,Charge,385,Heavy Missile,Consumer Price Index,Ammo
-27459,Imperial Navy Mjolnir Auto-Targeting Cruise Missile I,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
-27465,Caldari Navy Scourge Auto-Targeting Cruise Missile I,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
-27471,Federation Navy Inferno Auto-Targeting Cruise Missile I,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
-27477,Republic Fleet Nova Auto-Targeting Cruise Missile I,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
-27483,Imperial Navy Mjolnir Auto-Targeting Heavy Missile I,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
-27489,Caldari Navy Scourge Auto-Targeting Heavy Missile I,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
-27495,Federation Navy Inferno Auto-Targeting Heavy Missile I,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
-27501,Republic Fleet Nova Auto-Targeting Heavy Missile I,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
-27507,Imperial Navy Mjolnir Auto-Targeting Light Missile I,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
-27513,Caldari Navy Scourge Auto-Targeting Light Missile I,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
-27519,Federation Navy Inferno Auto-Targeting Light Missile I,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
-27525,Republic Fleet Nova Auto-Targeting Light Missile I,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
+27459,Legion Mjolnir Auto-Targeting Cruise Missile,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
+27465,Legion Scourge Auto-Targeting Cruise Missile,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
+27471,Legion Inferno Auto-Targeting Cruise Missile,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
+27477,Legion Nova Auto-Targeting Cruise Missile,8,Charge,396,Auto-Targeting Cruise Missile,Consumer Price Index,Ammo
+27483,Legion Mjolnir Auto-Targeting Heavy Missile,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
+27489,Legion Scourge Auto-Targeting Heavy Missile,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
+27495,Legion Inferno Auto-Targeting Heavy Missile,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
+27501,Legion Nova Auto-Targeting Heavy Missile,8,Charge,395,Auto-Targeting Heavy Missile,Consumer Price Index,Ammo
+27507,Legion Mjolnir Auto-Targeting Light Missile,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
+27513,Legion Scourge Auto-Targeting Light Missile,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
+27519,Legion Inferno Auto-Targeting Light Missile,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
+27525,Legion Nova Auto-Targeting Light Missile,8,Charge,394,Auto-Targeting Light Missile,Consumer Price Index,Ammo
 27912,Concussion Bomb,8,Charge,90,Bomb,Consumer Price Index,Ammo
 27916,Scorch Bomb,8,Charge,90,Bomb,Consumer Price Index,Ammo
 27918,Shrapnel Bomb,8,Charge,90,Bomb,Consumer Price Index,Ammo
@@ -2805,47 +2805,47 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 73794,Thrasher Fleet Issue,6,Ship,420,Destroyer,Consumer Price Index,Faction Ships
 73795,Cormorant Navy Issue,6,Ship,420,Destroyer,Consumer Price Index,Faction Ships
 73796,Catalyst Navy Issue,6,Ship,420,Destroyer,Consumer Price Index,Faction Ships
-47035,Standup Templar I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47036,Standup Gram I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47037,Standup Siren I,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47038,Standup Mantis I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47039,Standup Gungnir I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47116,Standup Malleus I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47117,Standup Cyclops I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47118,Standup Tyrfing I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47119,Standup Malleus II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47120,Standup Mantis II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47121,Standup Cyclops II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47122,Standup Tyrfing II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47123,Standup Shadow,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47124,Standup Ametat I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47125,Standup Termite I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47126,Standup Antaeus I,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47127,Standup Ametat II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47128,Standup Termite II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47129,Standup Antaeus II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47130,Standup Gungnir II,87,Fighter,1653,Heavy Fighter,Consumer Price Index,Fighter
-47131,Standup Cenobite I,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47132,Standup Scarab I,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47133,Standup Dromi I,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47134,Standup Cenobite II,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47135,Standup Scarab II,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47136,Standup Siren II,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47137,Standup Dromi II,87,Fighter,1537,Support Fighter,Consumer Price Index,Fighter
-47138,Standup Dragonfly I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47139,Standup Firbolg I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47140,Standup Einherji I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47141,Standup Templar II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47142,Standup Dragonfly II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47143,Standup Firbolg II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47144,Standup Einherji II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47145,Standup Equite I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47146,Standup Locust I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47147,Standup Satyr I,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47148,Standup Equite II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47149,Standup Locust II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47150,Standup Satyr II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
-47151,Standup Gram II,87,Fighter,1652,Light Fighter,Consumer Price Index,Fighter
+47035,Standup Templar I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47036,Standup Gram I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47037,Standup Siren I,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47038,Standup Mantis I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47039,Standup Gungnir I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47116,Standup Malleus I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47117,Standup Cyclops I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47118,Standup Tyrfing I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47119,Standup Malleus II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47120,Standup Mantis II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47121,Standup Cyclops II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47122,Standup Tyrfing II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47123,Standup Shadow,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47124,Standup Ametat I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47125,Standup Termite I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47126,Standup Antaeus I,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47127,Standup Ametat II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47128,Standup Termite II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47129,Standup Antaeus II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47130,Standup Gungnir II,87,Fighter,4779,Structure Heavy Fighter,Consumer Price Index,Fighter
+47131,Standup Cenobite I,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47132,Standup Scarab I,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47133,Standup Dromi I,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47134,Standup Cenobite II,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47135,Standup Scarab II,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47136,Standup Siren II,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47137,Standup Dromi II,87,Fighter,4778,Structure Support Fighter,Consumer Price Index,Fighter
+47138,Standup Dragonfly I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47139,Standup Firbolg I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47140,Standup Einherji I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47141,Standup Templar II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47142,Standup Dragonfly II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47143,Standup Firbolg II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47144,Standup Einherji II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47145,Standup Equite I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47146,Standup Locust I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47147,Standup Satyr I,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47148,Standup Equite II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47149,Standup Locust II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47150,Standup Satyr II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
+47151,Standup Gram II,87,Fighter,4777,Structure Light Fighter,Consumer Price Index,Fighter
 16272,Heavy Water,4,Material,423,Ice Product,Consumer Price Index,Ice Products
 16273,Liquid Ozone,4,Material,423,Ice Product,Consumer Price Index,Ice Products
 16274,Helium Isotopes,4,Material,423,Ice Product,Consumer Price Index,Ice Products
@@ -8623,36 +8623,36 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 62451,Capital Shipboard Compression Technology,16,Skill,1218,Resource Processing,Consumer Price Index,Skills
 62452,Gas Decompression Efficiency,16,Skill,1218,Resource Processing,Consumer Price Index,Skills
 62453,Fleet Compression Logistics,16,Skill,258,Fleet Support,Consumer Price Index,Skills
-32226,Territorial Claim Unit,40,Sovereignty Structures,1003,Territorial Claim Unit,Consumer Price Index,Sovereignty Structures
-32458,Infrastructure Hub,40,Sovereignty Structures,1012,Infrastructure Hub,Consumer Price Index,Sovereignty Structures
-2001,Cynosural Suppression,39,Infrastructure Upgrades,1016,Strategic Upgrades,Consumer Price Index,Starbase structures
-2008,Cynosural Navigation,39,Infrastructure Upgrades,1016,Strategic Upgrades,Consumer Price Index,Starbase structures
-2009,Supercapital Construction Facilities,39,Infrastructure Upgrades,1016,Strategic Upgrades,Consumer Price Index,Starbase structures
-2026,Pirate Detection Array 1,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2027,Pirate Detection Array 2,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2028,Pirate Detection Array 3,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2029,Pirate Detection Array 4,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2030,Pirate Detection Array 5,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2031,Entrapment Array 1,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2034,Entrapment Array 2,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2035,Entrapment Array 3,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2036,Entrapment Array 4,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2037,Entrapment Array 5,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2040,Ore Prospecting Array 1,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2041,Ore Prospecting Array 2,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2042,Ore Prospecting Array 3,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2043,Ore Prospecting Array 4,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2044,Ore Prospecting Array 5,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2053,Survey Networks 1,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2054,Survey Networks 2,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2055,Survey Networks 3,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2056,Survey Networks 4,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2057,Survey Networks 5,39,Infrastructure Upgrades,1020,Industrial Upgrades,Consumer Price Index,Starbase structures
-2058,Quantum Flux Generator 1,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2059,Quantum Flux Generator 2,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2060,Quantum Flux Generator 3,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2061,Quantum Flux Generator 4,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
-2062,Quantum Flux Generator 5,39,Infrastructure Upgrades,1021,Military Upgrades,Consumer Price Index,Starbase structures
+32226,Defunct Territorial Claim Unit,40,Sovereignty Structures,1003,Territorial Claim Unit,Consumer Price Index,Sovereignty Structures
+32458,Sovereignty Hub,40,Sovereignty Structures,1012,Sovereignty Hub,Consumer Price Index,Sovereignty Structures
+2001,Deprecated Cynosural Suppression,39,Infrastructure Upgrades,1016,Infrastructure Hub Strategic Upgrades,Consumer Price Index,Starbase structures
+2008,Deprecated Cynosural Navigation,39,Infrastructure Upgrades,1016,Infrastructure Hub Strategic Upgrades,Consumer Price Index,Starbase structures
+2009,Deprecated Supercapital Construction Facilities,39,Infrastructure Upgrades,1016,Infrastructure Hub Strategic Upgrades,Consumer Price Index,Starbase structures
+2026,Deprecated Pirate Detection Array 1,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2027,Deprecated Pirate Detection Array 2,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2028,Deprecated Pirate Detection Array 3,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2029,Deprecated Pirate Detection Array 4,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2030,Deprecated Pirate Detection Array 5,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2031,Deprecated Entrapment Array 1,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2034,Deprecated Entrapment Array 2,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2035,Deprecated Entrapment Array 3,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2036,Deprecated Entrapment Array 4,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2037,Deprecated Entrapment Array 5,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2040,Deprecated Ore Prospecting Array 1,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2041,Deprecated Ore Prospecting Array 2,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2042,Deprecated Ore Prospecting Array 3,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2043,Deprecated Ore Prospecting Array 4,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2044,Deprecated Ore Prospecting Array 5,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2053,Deprecated Survey Networks 1,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2054,Deprecated Survey Networks 2,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2055,Deprecated Survey Networks 3,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2056,Deprecated Survey Networks 4,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2057,Deprecated Survey Networks 5,39,Infrastructure Upgrades,1020,Infrastructure Hub Industrial Upgrades,Consumer Price Index,Starbase structures
+2058,Deprecated Quantum Flux Generator 1,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2059,Deprecated Quantum Flux Generator 2,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2060,Deprecated Quantum Flux Generator 3,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2061,Deprecated Quantum Flux Generator 4,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
+2062,Deprecated Quantum Flux Generator 5,39,Infrastructure Upgrades,1021,Infrastructure Hub Military Upgrades,Consumer Price Index,Starbase structures
 3293,Medium Standard Container,2,Celestial,12,Cargo Container,Consumer Price Index,Starbase structures
 3296,Large Standard Container,2,Celestial,12,Cargo Container,Consumer Price Index,Starbase structures
 3297,Small Standard Container,2,Celestial,12,Cargo Container,Consumer Price Index,Starbase structures
@@ -8869,7 +8869,7 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 30655,Hybrid Polymer Silo,23,Starbase,404,Silo,Consumer Price Index,Starbase structures
 30656,Polymer Reactor Array,23,Starbase,438,Mobile Reactor,Consumer Price Index,Starbase structures
 32245,Hyasyoda Research Laboratory,23,Starbase,413,Laboratory,Consumer Price Index,Starbase structures
-32422,Advanced Logistics Network,39,Infrastructure Upgrades,1016,Strategic Upgrades,Consumer Price Index,Starbase structures
+32422,Deprecated Advanced Logistics Network,39,Infrastructure Upgrades,1016,Infrastructure Hub Strategic Upgrades,Consumer Price Index,Starbase structures
 33003,Enormous Freight Container,2,Celestial,649,Freight Container,Consumer Price Index,Starbase structures
 33005,Huge Freight Container,2,Celestial,649,Freight Container,Consumer Price Index,Starbase structures
 33007,Large Freight Container,2,Celestial,649,Freight Container,Consumer Price Index,Starbase structures
@@ -8916,6 +8916,9 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 35881,Standup Capital Shipyard I,66,Structure Module,1415,Structure Engineering Service Module,Consumer Price Index,Structure Module
 35886,Standup Invention Lab I,66,Structure Module,1415,Structure Engineering Service Module,Consumer Price Index,Structure Module
 35891,Standup Research Lab I,66,Structure Module,1415,Structure Engineering Service Module,Consumer Price Index,Structure Module
+35912,Standup Cynosural Field Generator I,66,Structure Module,1324,Structure FLEX Service Module,Consumer Price Index,Structure Module
+35913,Standup Conduit Generator I,66,Structure Module,1324,Structure FLEX Service Module,Consumer Price Index,Structure Module
+35914,Standup Cynosural System Jammer I,66,Structure Module,1324,Structure FLEX Service Module,Consumer Price Index,Structure Module
 35944,Standup Energy Neutralization Burst Projector,66,Structure Module,1331,Structure Burst Projector,Consumer Price Index,Structure Module
 37146,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I,66,Structure Module,1826,Structure Engineering Rig M - Basic Medium Ship ME,Consumer Price Index,Structure Module
 37147,Standup M-Set Basic Medium Ship Manufacturing Material Efficiency II,66,Structure Module,1826,Structure Engineering Rig M - Basic Medium Ship ME,Consumer Price Index,Structure Module
@@ -14709,9 +14712,8 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 2538,Thermal Shield Amplifier I Blueprint,9,Blueprint,296,Shield Resistance Amplifier Blueprint,Secondary Producer Price Index,Blueprints
 2546,Kinetic Shield Amplifier I Blueprint,9,Blueprint,296,Shield Resistance Amplifier Blueprint,Secondary Producer Price Index,Blueprints
 2604,Nanofiber Internal Structure I Blueprint,9,Blueprint,158,Hull Mods Blueprint,Secondary Producer Price Index,Blueprints
-2735,Infrastructure Hub Blueprint,9,Blueprint,1045,Sovereignty Structure Blueprint,Secondary Producer Price Index,Blueprints
+2735,Sovereignty Hub Blueprint,9,Blueprint,1045,Sovereignty Structure Blueprint,Secondary Producer Price Index,Blueprints
 2736,Warp Disruption Battery Blueprint,9,Blueprint,857,Starbase - Warp Scrambling Battery Blueprints,Secondary Producer Price Index,Blueprints
-2737,Territorial Claim Unit Blueprint,9,Blueprint,1045,Sovereignty Structure Blueprint,Secondary Producer Price Index,Blueprints
 2739,Nanite Repair Paste Blueprint,9,Blueprint,912,Script Blueprint,Secondary Producer Price Index,Blueprints
 2740,Warp Scrambling Battery Blueprint,9,Blueprint,857,Starbase - Warp Scrambling Battery Blueprints,Secondary Producer Price Index,Blueprints
 2741,Stasis Webification Battery Blueprint,9,Blueprint,858,Starbase - Stasis Webification Battery Blueprints,Secondary Producer Price Index,Blueprints
@@ -15491,35 +15493,6 @@ type_id,type_name,category_id,category_name,group_id,group_name,primary_index,su
 34309,Capital Higgs Anchor I Blueprint,9,Blueprint,787,Rig Blueprint,Secondary Producer Price Index,Blueprints
 34329,Bowhead Blueprint,9,Blueprint,525,Freighter Blueprint,Secondary Producer Price Index,Blueprints
 34594,Entosis Link I Blueprint,9,Blueprint,1318,Entosis Link Blueprint,Secondary Producer Price Index,Blueprints
-34841,Entrapment Array 2 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34842,Entrapment Array 3 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34843,Entrapment Array 4 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34844,Entrapment Array 5 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34845,Pirate Detection Array 1 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34846,Pirate Detection Array 2 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34847,Pirate Detection Array 3 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34848,Pirate Detection Array 4 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34849,Pirate Detection Array 5 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34850,Quantum Flux Generator 1 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34851,Quantum Flux Generator 2 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34852,Quantum Flux Generator 3 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34853,Quantum Flux Generator 4 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34854,Quantum Flux Generator 5 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34855,Ore Prospecting Array 1 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34856,Ore Prospecting Array 2 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34857,Ore Prospecting Array 3 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34858,Ore Prospecting Array 4 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34859,Ore Prospecting Array 5 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34860,Survey Networks 1 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34861,Survey Networks 2 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34862,Survey Networks 3 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34863,Survey Networks 4 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34864,Survey Networks 5 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34865,Advanced Logistics Network Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34866,Cynosural Navigation Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34867,Cynosural Suppression Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34868,Supercapital Construction Facilities Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
-34869,Entrapment Array 1 Blueprint,9,Blueprint,1317,Infrastructure Upgrade Blueprint,Secondary Producer Price Index,Blueprints
 35772,Missile Guidance Enhancer I Blueprint,9,Blueprint,1397,Missile Guidance Enhancer Blueprint,Secondary Producer Price Index,Blueprints
 35791,Missile Guidance Computer I Blueprint,9,Blueprint,1399,Missile Guidance Computer Blueprint,Secondary Producer Price Index,Blueprints
 35796,Missile Range Script Blueprint,9,Blueprint,912,Script Blueprint,Secondary Producer Price Index,Blueprints
