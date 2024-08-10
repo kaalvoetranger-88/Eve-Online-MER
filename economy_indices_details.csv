@@ -14439,3 +14439,77 @@ history_date,primary_index,sub_index,price_change,total_value,price_change_weigh
 2024-06-01,Secondary Producer Price Index,Station components,1.215826,99883954255.5459,0.000249
 2024-06-01,Secondary Producer Price Index,Tech II construction components,0.878161,1458297260983.8506,-0.002052
 2024-06-01,Secondary Producer Price Index,Tech III Subsystem Components,1.006301,82988938361.4607,6e-06
+2024-07-01,Consumer Price Index,Accessories,1.001621,110190314044222.02,0.000409
+2024-07-01,Consumer Price Index,Ammo,0.998563,10559541578781.277,-3.4e-05
+2024-07-01,Consumer Price Index,Apparel,1.0015,743284842434.4166,2e-06
+2024-07-01,Consumer Price Index,Boosters,0.956393,1974277953352.7693,-0.000197
+2024-07-01,Consumer Price Index,Citadels,0.941892,1352198978348.1333,-0.00018
+2024-07-01,Consumer Price Index,Commodity,1.034095,10791953661567.863,0.000843
+2024-07-01,Consumer Price Index,Complimentary ships,1.070842,59550808544.7102,9e-06
+2024-07-01,Consumer Price Index,Drone,0.924761,554056845346.5079,-9.5e-05
+2024-07-01,Consumer Price Index,Drones,0.984467,8179704443855.462,-0.000291
+2024-07-01,Consumer Price Index,Faction Ships,0.948226,20371684225781.723,-0.002417
+2024-07-01,Consumer Price Index,Fighter,0.912639,299790222514.7564,-6e-05
+2024-07-01,Consumer Price Index,Ice Products,0.987119,5956578574792.649,-0.000175
+2024-07-01,Consumer Price Index,Implant,1.041212,13919651169324.312,0.001315
+2024-07-01,Consumer Price Index,Implants,0.974157,29759879469612.64,-0.001763
+2024-07-01,Consumer Price Index,Insignias,0.95628,3245319236174.5303,-0.000325
+2024-07-01,Consumer Price Index,Officer Modules,1.000874,296901208011.1812,0.0
+2024-07-01,Consumer Price Index,Orbitals,0.958502,139850834914.0683,-1.3e-05
+2024-07-01,Consumer Price Index,POS Fuel,0.99549,2680454984736.9077,-2.7e-05
+2024-07-01,Consumer Price Index,Planetary Infrastructure,1.154096,59403103000.1915,2e-05
+2024-07-01,Consumer Price Index,SKINs,0.984675,2686325067578.279,-9.4e-05
+2024-07-01,Consumer Price Index,Scripts,1.158844,39846551229.6136,1.4e-05
+2024-07-01,Consumer Price Index,Security Tags,0.965144,628392658851.5065,-5e-05
+2024-07-01,Consumer Price Index,Services,1.041723,359777547439.7486,3.4e-05
+2024-07-01,Consumer Price Index,Skills,0.964202,7307454258282.446,-0.000599
+2024-07-01,Consumer Price Index,Sovereignty Structures,0.992166,81239761666.5786,-1e-06
+2024-07-01,Consumer Price Index,Starbase structures,0.948088,3455932113883.913,-0.000411
+2024-07-01,Consumer Price Index,Structure,1.005265,1427739124048.5742,1.7e-05
+2024-07-01,Consumer Price Index,Structure Module,0.952186,3981426696912.0063,-0.000436
+2024-07-01,Consumer Price Index,Subsystem,0.931531,3066643819094.428,-0.000481
+2024-07-01,Consumer Price Index,Tech I Rigs,0.960432,1792590539064.0737,-0.000162
+2024-07-01,Consumer Price Index,Tech I modules,0.969594,82008943784898.4,-0.005716
+2024-07-01,Consumer Price Index,Tech I ships,1.007167,32677692451719.902,0.000536
+2024-07-01,Consumer Price Index,Tech II Rigs,1.002735,12844877186972.42,8e-05
+2024-07-01,Consumer Price Index,Tech II modules,1.002442,16860516083448.852,9.4e-05
+2024-07-01,Consumer Price Index,Tech II ships,0.990866,41423142424810.09,-0.000867
+2024-07-01,Consumer Price Index,Tech III ships,0.927341,4422675070934.159,-0.000736
+2024-07-01,Mineral Price Index,High-End Minerals,1.019298,9586622486029.592,0.009377
+2024-07-01,Mineral Price Index,Low-End Minerals,1.062914,10141344674970.027,0.032341
+2024-07-01,Primary Producer Price Index,Advanced Moon Materials,0.947229,5230693107881.5,-0.005833
+2024-07-01,Primary Producer Price Index,Alloys & Compounds,1.003653,1951424811.9998,0.0
+2024-07-01,Primary Producer Price Index,Asteroid,1.06983,6093571526383.326,0.008992
+2024-07-01,Primary Producer Price Index,Blueprint,1.001552,1964996113307.2058,6.4e-05
+2024-07-01,Primary Producer Price Index,Blueprints,1.000875,1475988178883.5723,2.7e-05
+2024-07-01,Primary Producer Price Index,Commodity,1.02293,3385301337558.071,0.00164
+2024-07-01,Primary Producer Price Index,Datacores,0.97884,1372757638844.2986,-0.000613
+2024-07-01,Primary Producer Price Index,Decryptors,0.987224,1052875615449.9764,-0.000284
+2024-07-01,Primary Producer Price Index,Hybrid polymers,0.970654,1123255414167.8257,-0.000696
+2024-07-01,Primary Producer Price Index,Ice,0.991849,1257661320903.1687,-0.000216
+2024-07-01,Primary Producer Price Index,Ore,1.072996,1329758488678.3123,0.002051
+2024-07-01,Primary Producer Price Index,Planetary Processed Materials,1.034001,2055544192861.0803,0.001477
+2024-07-01,Primary Producer Price Index,Planetary Raw Materials,0.831803,85936987848.2294,-0.000305
+2024-07-01,Primary Producer Price Index,Planetary Refined Commodities,0.976026,1664039458892.0894,-0.000843
+2024-07-01,Primary Producer Price Index,Planetary Specialized Commodities,0.990756,1992774089742.1191,-0.000389
+2024-07-01,Primary Producer Price Index,Processed Moon Materials,0.987783,608405358288.9432,-0.000157
+2024-07-01,Primary Producer Price Index,Raw Moon Materials,1.02434,14724868595993.115,0.007574
+2024-07-01,Primary Producer Price Index,Sleeper relics,0.825464,114465965703.783,-0.000422
+2024-07-01,Primary Producer Price Index,Starbase structures,0.836656,1782075976331.4514,-0.006151
+2024-07-01,Secondary Producer Price Index,Accessories,1.028773,45635566182910.99,0.013984
+2024-07-01,Secondary Producer Price Index,Advanced Capital Construction Components,0.830958,36112167497.1851,-6.5e-05
+2024-07-01,Secondary Producer Price Index,Ancient Salvaged Materials,0.903598,1550985819644.5815,-0.001592
+2024-07-01,Secondary Producer Price Index,Blueprint,1.014013,446053007972.3849,6.6e-05
+2024-07-01,Secondary Producer Price Index,Blueprints,1.00399,3503651374722.135,0.000148
+2024-07-01,Secondary Producer Price Index,Boosters,1.04641,27545297613.4323,1.3e-05
+2024-07-01,Secondary Producer Price Index,Capital Ship Components,0.931752,1307673485843.322,-0.00095
+2024-07-01,Secondary Producer Price Index,Commodity,0.921259,14576875165895.21,-0.012224
+2024-07-01,Secondary Producer Price Index,Planetary Advanced Commodities,0.966599,5718914361716.737,-0.002034
+2024-07-01,Secondary Producer Price Index,Planetary Commodities,1.08145,380954233686.0926,0.00033
+2024-07-01,Secondary Producer Price Index,Planetary Refined Commodities,0.994657,2670053120945.128,-0.000151
+2024-07-01,Secondary Producer Price Index,Planetary Specialized Commodities,1.001293,2342714273061.7793,3.2e-05
+2024-07-01,Secondary Producer Price Index,Salvaged materials,0.989411,11016702737567.596,-0.001242
+2024-07-01,Secondary Producer Price Index,Starbase structures,0.786782,2648394533065.655,-0.006014
+2024-07-01,Secondary Producer Price Index,Station components,1.013836,549464722254.0356,8e-05
+2024-07-01,Secondary Producer Price Index,Tech II construction components,1.005902,1429171161621.2273,8.9e-05
+2024-07-01,Secondary Producer Price Index,Tech III Subsystem Components,0.874333,53049678177.5465,-7.1e-05

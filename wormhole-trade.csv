@@ -1,37 +1,37 @@
 wormhole_class,item_category,import_or_export,total
-Class 1,Blue loot,Exports,2307342409956.7036
-Class 1,Blue loot,Imports,2264223971292.2305
-Class 1,Gas,Exports,442355926476.5892
-Class 1,Gas,Imports,206124708915.2072
-Class 1,Materials,Exports,2307252364814.778
-Class 1,Materials,Imports,2452260103544.8794
-Class 2,Blue loot,Exports,7342837425782.743
-Class 2,Blue loot,Imports,7189508928710.022
-Class 2,Gas,Exports,1033192787548.3231
-Class 2,Gas,Imports,1157020473008.7405
-Class 2,Materials,Exports,6475114656945.745
-Class 2,Materials,Imports,6158132861218.286
-Class 3,Blue loot,Exports,9108705413402.727
-Class 3,Blue loot,Imports,7217910145842.8955
-Class 3,Gas,Exports,1325194054886.0925
-Class 3,Gas,Imports,625570969217.1389
-Class 3,Materials,Exports,5213445843474.786
-Class 3,Materials,Imports,4596395539703.729
-Class 4,Blue loot,Exports,8095450728966.329
-Class 4,Blue loot,Imports,6660952688480.567
-Class 4,Gas,Exports,806034983445.7073
-Class 4,Gas,Imports,967136561228.272
-Class 4,Materials,Exports,3046767961510.649
-Class 4,Materials,Imports,2847114520052.5225
-Class 5,Blue loot,Exports,15534992500390.783
-Class 5,Blue loot,Imports,4560608212177.568
-Class 5,Gas,Exports,920858167921.9067
-Class 5,Gas,Imports,389410579006.3492
-Class 5,Materials,Exports,3812753449428.9478
-Class 5,Materials,Imports,2678102864523.3965
-Class 6,Blue loot,Exports,7136912121737.773
-Class 6,Blue loot,Imports,2869074507398.481
-Class 6,Gas,Exports,208181332011.5604
-Class 6,Gas,Imports,117967226914.17079
-Class 6,Materials,Exports,1511363367890.145
-Class 6,Materials,Imports,925241261788.1482
+Class 1,Blue loot,Exports,1609422164868.2795
+Class 1,Blue loot,Imports,1569471348186.1934
+Class 1,Gas,Exports,427394780373.4615
+Class 1,Gas,Imports,210768875104.6087
+Class 1,Materials,Exports,2196932785212.9517
+Class 1,Materials,Imports,2238325769030.949
+Class 2,Blue loot,Exports,5197712294810.205
+Class 2,Blue loot,Imports,5076297243031.399
+Class 2,Gas,Exports,919948034595.1221
+Class 2,Gas,Imports,1008904225985.9845
+Class 2,Materials,Exports,6309718742952.937
+Class 2,Materials,Imports,5887820576903.986
+Class 3,Blue loot,Exports,7826293238921.841
+Class 3,Blue loot,Imports,6030327754623.837
+Class 3,Gas,Exports,1239514247543.7417
+Class 3,Gas,Imports,605037904452.0345
+Class 3,Materials,Exports,5471186728100.382
+Class 3,Materials,Imports,4911468156631.281
+Class 4,Blue loot,Exports,6092171023233.918
+Class 4,Blue loot,Imports,4774680575394.219
+Class 4,Gas,Exports,818770314787.7919
+Class 4,Gas,Imports,1010855875353.79
+Class 4,Materials,Exports,3116293760836.841
+Class 4,Materials,Imports,2950503759766.7637
+Class 5,Blue loot,Exports,10997794088233.7
+Class 5,Blue loot,Imports,3865102317873.161
+Class 5,Gas,Exports,963677065696.5198
+Class 5,Gas,Imports,405071279383.006
+Class 5,Materials,Exports,3961963918229.7324
+Class 5,Materials,Imports,2828792559124.5024
+Class 6,Blue loot,Exports,6558754229899.622
+Class 6,Blue loot,Imports,2250159183571.127
+Class 6,Gas,Exports,234156151264.5588
+Class 6,Gas,Imports,162820680828.74478
+Class 6,Materials,Exports,1678175681857.862
+Class 6,Materials,Imports,1189397818435.6316
