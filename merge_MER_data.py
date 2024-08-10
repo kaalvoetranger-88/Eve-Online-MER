@@ -57,8 +57,8 @@ def merge_MER_data(file_name, relative_path):
                     if os.path.exists(mining_by_region_path):
                         df = pd.read_csv(mining_by_region_path)
 
-                        # Add a new column for the month and year
-                        df['MonthYear'] = date_obj
+                        # Add a new column for history_date
+                        df['history_date'] = date_obj
 
                         # Append the DataFrame to the list
                         data_frames.append(df)
@@ -71,7 +71,7 @@ def merge_MER_data(file_name, relative_path):
     merged_df = pd.concat(data_frames, ignore_index=True)
 
     # Set the MonthYear column as the index
-    merged_df.set_index('MonthYear', inplace=True)
+    merged_df.set_index('history_date', inplace=True)
 
     # Sort the DataFrame by the index (ascending order of dates)
     merged_df.sort_index(inplace=True)
@@ -111,3 +111,4 @@ for file_name in file_list:
     # Print information or perform other actions if needed
     print(f"Processed {file_name} and assigned to global variable {global_var_name}")
     
+print("Program Complete")    
